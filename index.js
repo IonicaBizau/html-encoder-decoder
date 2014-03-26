@@ -29,6 +29,15 @@ function encodeCharacter (input) {
 var HTMLEncoderDecoder = {
     decode: function (input) {
 
+        // force input to be a string
+        var output = String(input);
+
+        // each character object in charactermap
+        for (var i = 0; i < CharacterMap.length; ++i) {
+            output = output.replace(new RegExp (CharacterMap[i].encoded, "g"), CharacterMap[i].decoded)
+        }
+
+        return output;
     }
     /**
      *  TODO
@@ -44,7 +53,7 @@ var HTMLEncoderDecoder = {
         for (var c in input) {
 
             // apend encoded character to output
-            output += encodeCharacter[c];
+            output += encodeCharacter(input[c]);
         }
 
         // and return the output
