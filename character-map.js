@@ -160,10 +160,6 @@ var CharacterMap = [
       , decoded: "Á"
     }
   , {
-        encoded: "&Acirc;"
-      , decoded: "Â"
-    }
-  , {
         encoded: "&Atilde;"
       , decoded: "Ã"
     }
@@ -206,10 +202,6 @@ var CharacterMap = [
   , {
         encoded: "&Iacute;"
       , decoded: "Í"
-    }
-  , {
-        encoded: "&Icirc;"
-      , decoded: "Î"
     }
   , {
         encoded: "&Iuml;"
@@ -284,10 +276,6 @@ var CharacterMap = [
       , decoded: "á"
     }
   , {
-        encoded: "&acirc;"
-      , decoded: "â"
-    }
-  , {
         encoded: "&atilde;"
       , decoded: "ã"
     }
@@ -330,10 +318,6 @@ var CharacterMap = [
   , {
         encoded: "&iacute;"
       , decoded: "í"
-    }
-  , {
-        encoded: "&icirc;"
-      , decoded: "î"
     }
   , {
         encoded: "&iuml;"
@@ -399,6 +383,47 @@ var CharacterMap = [
         encoded: "&yuml;"
       , decoded: "ÿ"
     }
+  , {
+        encoded: "&#259;"
+      , decoded: "ă"
+    }
+  , {
+        encoded: "Ă"
+      , decoded: "&#258;"
+    }
+  , {
+        encoded: "â"
+      , decoded: "&#226;"
+    }
+  , {
+        encoded: "Â"
+      , decoded: "&#194;"
+    }
+  , {
+        encoded: "î"
+      , decoded: "&#238;"
+    }
+  , {
+        encoded: "Î"
+      , decoded: "&#206;"
+    }
+  , {
+        encoded: "ş"
+      , decoded: "&#351;"
+    }
+  , {
+        encoded: "Ş"
+      , decoded: "&#350;"
+    }
+  , {
+        encoded: "ţ"
+      , decoded: "&#355;"
+    }
+  , {
+        encoded: "Ţ"
+      , decoded: "&#354;"
+    }
 ];
 
 module.exports = CharacterMap;
+
