@@ -51,3 +51,5 @@ var HTMLEncoderDecoder = {
         return output;
     }
 };
+
+module.exports = HTMLEncoderDecoder
