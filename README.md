@@ -53,5 +53,10 @@ Encodes a string.
 #### Returns
 The encoded string.
 
+## Changelog
+
+### `v0.1.0`
+ - The initial release
+
 ## License
 See LICENSE file.
