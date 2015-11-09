@@ -1,6 +1,6 @@
 {
   "name": "html-encoder-decoder",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "html",
     "node"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com>",
-  "license": "MIT",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
   "bugs": {
     "url": "https://github.com/IonicaBizau/html-decoder-encoder/issues"
   },

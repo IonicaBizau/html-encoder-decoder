@@ -1,62 +1,67 @@
-HTML Decoder Encoder
-====================
+# html-encoder-decoder [![Support this project][donate-now]][paypal-donations]
 
 HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities
 
 ## Installation
 
 ```sh
-$ npm install html-decoder-encoder
+$ npm i -g html-encoder-decoder
 ```
 
-## Example and testing
+## Example
 
 ```js
 // dependencies
-var HTMLDecoderEncoder = require("html-encoder-decoder")
+var HTMLDecoderEncoder = require("../index")
   , encoded = null
   ;
 
-console.log(HTMLDecoderEncoder.encode(encoded = "Copyright © Ionică Bizău <bizauionica@gmail.com>"));
+console.log(encoded = HTMLDecoderEncoder.encode("Copyright © Ionică Bizău <bizauionica@gmail.com>"));
+// => Copyright &copy; Ionic&#259; Biz&#259;u &lt;bizauionica@gmail.com&gt;
+
 console.log(HTMLDecoderEncoder.decode(encoded));
+// => Copyright © Ionică Bizău <bizauionica@gmail.com>
 ```
 
-Running this you will get:
+## Documentation
 
-```sh
-$ npm test
-
-> html-encoder-decoder@0.0.0 test /.../html-encoder-decoder
-> node test/1.js
-
-Copyright &copy; Ionic&#259; Biz&#259;u &lt;bizauionica@gmail.com&gt;
-Copyright © Ionică Bizău <bizauionica@gmail.com>
-```
-
-## Methods
-
-### `decode (@input)`
+### `decode(input)`
 Decodes an encoded string.
 
-#### Arguments
- - @input: the encoded string
+#### Params
+- **String** `input`: The encoded string.
 
-#### Returns
-The decoded string.
+#### Return
+- **String** The decoded string.
 
-### `encode (@input)`
+### `encode({})`
 Encodes a string.
 
-#### Arguments
- - @input: the string that must be encoded
+#### Params
+- **** `{}`: input The string that must be encoded.
 
-#### Returns
-The encoded string.
+#### Return
+- **String** The encoded string.
 
-## Changelog
+## How to contribute
+Have an idea? Found a bug? See [how to contribute][contributing].
 
-### `v0.1.0`
- - The initial release
+## Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - [`jsfiddle`](https://npmjs.com/package/jsfiddle)
+
+ - [`jsfiddle-api`](https://npmjs.com/package/jsfiddle-api)
 
 ## License
-See LICENSE file.
+
+[KINDLY][license] © [Ionică Bizău][website]
+
+[license]: http://ionicabizau.github.io/kindly-license/?author=Ionic%C4%83%20Biz%C4%83u%20%3Cbizauionica@gmail.com%3E&year=2014
+
+[website]: http://ionicabizau.net
+[paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
+[donate-now]: http://i.imgur.com/6cMbHOC.png
+
+[contributing]: /CONTRIBUTING.md
+[docs]: /DOCUMENTATION.md
