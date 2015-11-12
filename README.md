@@ -5,7 +5,7 @@ HTML Encoder / Decoder - Converts characters to their corresponding HTML Entitie
 ## Installation
 
 ```sh
-$ npm i -g html-encoder-decoder
+$ npm i html-encoder-decoder
 ```
 
 ## Example
