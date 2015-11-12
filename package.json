@@ -1,6 +1,6 @@
 {
   "name": "html-encoder-decoder",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IonicaBizau/html-decoder-encoder"
+    "url": "https://github.com/IonicaBizau/html-encoder-decoder"
   },
   "keywords": [
     "decoder",
@@ -19,9 +19,9 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "KINDLY",
   "bugs": {
-    "url": "https://github.com/IonicaBizau/html-decoder-encoder/issues"
+    "url": "https://github.com/IonicaBizau/html-encoder-decoder/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/html-decoder-encoder",
+  "homepage": "https://github.com/IonicaBizau/html-encoder-decoder",
   "directories": {
     "test": "test"
   }
