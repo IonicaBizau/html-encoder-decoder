@@ -1,6 +1,6 @@
 {
   "name": "html-encoder-decoder",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,16 @@
   "homepage": "https://github.com/IonicaBizau/html-encoder-decoder",
   "directories": {
     "test": "test"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
