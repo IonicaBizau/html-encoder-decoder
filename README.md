@@ -17,10 +17,9 @@ $ npm i --save html-encoder-decoder
 
 
 ```js
-// dependencies
-var HTMLDecoderEncoder = require("../index")
-  , encoded = null
-  ;
+const HTMLDecoderEncoder = require("html-encoder-decoder");
+
+let encoded = null;
 
 console.log(encoded = HTMLDecoderEncoder.encode("Copyright © Ionică Bizău <bizauionica@gmail.com>"));
 // => Copyright &copy; Ionic&#259; Biz&#259;u &lt;bizauionica@gmail.com&gt;
@@ -55,12 +54,6 @@ Encodes a string.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
-
- - [`jsfiddle`](https://bitbucket.org/IonicaBizau/node-jsfiddle#readme)—JSFiddle API for NodeJS
- - [`jsfiddle-api`](https://npmjs.com/package/jsfiddle-api)—JSFiddle API for NodeJS
 
 ## :scroll: License
 
