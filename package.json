@@ -2,7 +2,7 @@
   "name": "html-encoder-decoder",
   "version": "1.2.3",
   "description": "HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test/1.js"
   },
@@ -36,5 +36,9 @@
     "scripts/",
     "cli.js",
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "iterate-object": "^1.3.2",
+    "regex-escape": "^3.4.2"
+  }
 }
