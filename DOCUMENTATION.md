@@ -11,11 +11,11 @@ Decodes an encoded string.
 #### Return
 - **String** The decoded string.
 
-### `encode({})`
+### `encode(input)`
 Encodes a string.
 
 #### Params
-- **** `{}`: input The string that must be encoded.
+- **String** `input`: The string that must be encoded.
 
 #### Return
 - **String** The encoded string.

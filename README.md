@@ -40,11 +40,11 @@ Decodes an encoded string.
 #### Return
 - **String** The decoded string.
 
-### `encode({})`
+### `encode(input)`
 Encodes a string.
 
 #### Params
-- **** `{}`: input The string that must be encoded.
+- **String** `input`: The string that must be encoded.
 
 #### Return
 - **String** The encoded string.
@@ -64,6 +64,14 @@ to [set up a recurring donation, via Patreon][patreon]. :rocket:
 
 Thanks! :heart:
 
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+
+ - [`3abn`](https://github.com/IonicaBizau/3abn#readme)—A 3ABN radio client in the terminal.
+ - [`jsfiddle`](https://github.com/IonicaBizau/node-jsfiddle#readme)—JSFiddle API for NodeJS
+ - [`jsfiddle-api`](https://npmjs.com/package/jsfiddle-api)—JSFiddle API for NodeJS
+ - [`showdown-highlight`](https://github.com/IonicaBizau/showdown-highlight#readme)—A Showdown extension for highlight the code blocks.
 
 ## :scroll: License
 
