@@ -1,6 +1,6 @@
 {
   "name": "html-encoder-decoder",
-  "version": "1.3.5",
+  "version": "1.3.6",
   "description": "HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities",
   "main": "lib/index.js",
   "scripts": {
@@ -35,7 +35,10 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ],
   "dependencies": {
     "he": "^1.1.0",
