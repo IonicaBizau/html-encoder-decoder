@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Decodes an encoded string.
 
 #### Params
+
 - **String** `input`: The encoded string.
 
 #### Return
@@ -15,6 +16,7 @@ Decodes an encoded string.
 Encodes a string.
 
 #### Params
+
 - **String** `input`: The string that must be encoded.
 
 #### Return
