@@ -17,6 +17,9 @@
     "node"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "contributors": [
+    "Olah Mark <markolah678@gmail.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/html-encoder-decoder/issues"
