@@ -1,6 +1,6 @@
 {
   "name": "html-encoder-decoder",
-  "version": "1.3.9",
+  "version": "1.4.0",
   "description": "HTML Encoder / Decoder - Converts characters to their corresponding HTML Entities",
   "main": "lib/index.js",
   "scripts": {
