@@ -4,8 +4,9 @@ const HTMLDecoderEncoder = require("..");
 
 let encoded = null;
 
-console.log(encoded = HTMLDecoderEncoder.encode("Copyright © Ionică Bizău <bizauionica@gmail.com>"));
-// => Copyright &copy; Ionic&#259; Biz&#259;u &lt;bizauionica@gmail.com&gt;
+console.log(encoded = HTMLDecoderEncoder.encode("Copyright © Foo Bar <foobar@example.com>"));
+// => Copyright &#xA9; Foo Bar &#x3C;foobar@example.com&#x3E;
+
 
 console.log(HTMLDecoderEncoder.decode(encoded));
-// => Copyright © Ionică Bizău <bizauionica@gmail.com>
+// => Copyright © Foo Bar <foobar@example.com>;
