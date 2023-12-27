@@ -78,11 +78,12 @@ const HTMLDecoderEncoder = require("html-encoder-decoder");
 
 let encoded = null;
 
-console.log(encoded = HTMLDecoderEncoder.encode("Copyright © Ionică Bizău <bizauionica@gmail.com>"));
-// => Copyright &copy; Ionic&#259; Biz&#259;u &lt;bizauionica@gmail.com&gt;
+console.log(encoded = HTMLDecoderEncoder.encode("Copyright © Foo Bar <foobar@example.com>"));
+// => Copyright &#xA9; Foo Bar &#x3C;foobar@example.com&#x3E;
+
 
 console.log(HTMLDecoderEncoder.decode(encoded));
-// => Copyright © Ionică Bizău <bizauionica@gmail.com>
+// => Copyright © Foo Bar <foobar@example.com>;
 ```
 
 
@@ -187,13 +188,14 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - `showdown-highlight`
  - `jsfiddle-api`
+ - `jsfiddle`
  - `static-gfm`
  - `@webdesigndecal/mark2html`
- - `showit`
- - `nexusmods.js`
- - `jsfiddle`
- - `@innovexa/ng-form-creator-lib`
+ - `showdown-highlight-pre`
  - `3abn`
+ - `showit`
+ - `@innovexa/ng-form-creator-lib`
+ - `create-cle-plugin`
 
 
 
